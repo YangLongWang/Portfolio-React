@@ -1,15 +1,56 @@
 import React from 'react';
 
 function Nav() {
+  const categories = [
+    {
+      name: "about me",
+      description: "Hello! My name is Longyang Wang. It's a full-stack developer.",
+    },
+    {
+      name: "portfolio",
+      description: "Here are some apps on my Github, if you want to see more, please check my Github link on the footer.",
+    },
+    {
+      name: "contact",
+      description: "Welcome to contact me.",
+    },
+    {
+      name: "resume",
+      description: "",
+    },
+  ];
+  
+  function categorySelected(e) {
+    console.log(e)
+  }
+
   return (
-    <section>
+    <nav>
       <ul>
-        <li>About me</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-        <li>Resume</li>
+        {/* <li>
+          <span>About me</span>
+        </li>
+        <li>
+          <span>Portfolio</span>
+        </li>
+        <li>
+          <span>Contact</span>
+        </li>
+        <li>
+          <span>Resume</span>
+        </li> */}
+        {categories.map((category) => (
+          <li
+            className=''
+            key={category.name}
+          >
+            <span onClick={() => {categorySelected(category.name)}}>
+              {category.name}
+            </span>
+          </li>
+        ))}
       </ul>
-    </section>
+    </nav>
   );
 }
 
