@@ -6,7 +6,7 @@ function About() {
     <section>
       <h2>About me</h2>
       <img src={myPhoto} className='' style={{ width: '20%' }} alt='this is me' />
-      <p>Hello! My name is Longyang Wang. It's a full-stack developer.</p>
+      <p>Hello! My name is Longyang Wang. I'm a full-stack developer.</p>
     </section>
   );
 }

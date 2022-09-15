@@ -5,6 +5,7 @@ function Portfolio() {
   return (
     <section>
       <div>
+        <h2>Portfolio</h2>
         <Project></Project>
       </div>
     </section>
