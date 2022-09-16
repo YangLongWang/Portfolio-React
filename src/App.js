@@ -29,13 +29,13 @@ function App() {
   return (
     <div>
       <div>
-      <Header></Header>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
+        <Header></Header>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
       </div>
       <main>
         {renderPage()}
       </main>
-      <Footer></Footer>
+        <Footer></Footer>
     </div>
   );
 }

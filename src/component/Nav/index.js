@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Nav({ currentPage, handlePageChange }) {
+  useEffect(() => {
+    document.title = 'Longyang - ' + currentPage;
+  })
+
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
