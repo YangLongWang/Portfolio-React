@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Hover from "../Hover";
 
 // need hover effect
 
@@ -54,21 +55,65 @@ function Project() {
     },
   ]);
 
+  function MouseOver(e) {
+    e.target.style.opacity = 0.4;
+    return (
+      <div>
+        <p>Github</p>
+      </div>
+    );
+  }
+  function MouseOut(e) {
+    e.target.style.opacity = 1;
+  }
+
   return (
     <div className="d-flex justify-content-center align-content-between flex-wrap mt-3 mx-5">
-      {screenshots.map((image, i) => (
-        <img
-          src={require(`../../assets/projects/${i}.png`)}
-          alt={image.name}
-          className="project"
-          key={image.name}
-        />
-      ))}
-      <>
-        <p>
-          <a href={screenshots.github}>GitHub</a>
-        </p>
-      </>
+      {/* {screenshots.map((image, i) => (
+        <div>
+          <div className="pic">
+            <img
+              src={require(`../../assets/projects/${i}.png`)}
+              alt={image.name}
+              className="project"
+              key={image.name}
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            />
+            <div className="eye">
+              <p>
+                <a href={image.github}>Github</a>
+                <a href={image.deployment}>deployment</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      ))} */}
+      <div className="pic pic-1">
+        <div className="eye eye-1 d-flex flex-column justify-content-between">
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://github.com/Vinyldude8896/iBetter">GitHub</a>
+          </button>
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://ibetter.herokuapp.com">App Deployment</a>
+          </button>
+        </div>
+      </div>
+      <div className="pic pic-2">
+        <div className="eye eye-2"></div>
+      </div>
+      <div className="pic pic-3">
+        <div className="eye eye-3"></div>
+      </div>
+      <div className="pic pic-4">
+        <div className="eye eye-4"></div>
+      </div>
+      <div className="pic pic-5">
+        <div className="eye eye-5"></div>
+      </div>
+      <div className="pic pic-6">
+        <div className="eye eye-6"></div>
+      </div>
     </div>
   );
 }

@@ -38,6 +38,34 @@ body{
   margin: 2em;
 }
 
+.pic-1 {
+  width: 323px;
+  height: 200px;
+  margin: 2em;
+  background: url(../src/assets/projects/0.png) center no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.pic:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/0.png) center no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+.eye-1 {
+  width: 323px;
+  height: 200px;
+  opacity: 0;
+  z-index: 3;
+}
+
+.eye:hover {
+  border-radius: 10px;
+  opacity: 1;
+}
+
 .fa-brands {
   font-size: 30px;
 }
