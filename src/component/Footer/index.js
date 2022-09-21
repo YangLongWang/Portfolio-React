@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div class="d-flex flex-row justify-content-center p-3">
+      <div class="d-flex flex-row justify-content-center p-3 mt-5">
         <a href="https://github.com/YangLongWang" class="list-group-item mx-3">
           <i class="fa-brands fa-square-github"></i>
         </a>
