@@ -12,7 +12,7 @@ function Footer() {
         </a>
         <a
           href="https://www.linkedin.com/in/longyang-wang/"
-          class="list-group-item mx-3"
+          className="list-group-item mx-3"
         >
           <i className="fa-brands fa-linkedin"></i>
         </a>

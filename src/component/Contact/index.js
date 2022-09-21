@@ -50,7 +50,7 @@ function ContactForm() {
         className="mt-4 border border-light border-4 rounded-4 p-3 mx-5 d-flex justify-content-evenly"
         onSubmit={handleSubmit}
       >
-        <div class="border border-light border-4 rounded-4 p-3 flex-grow-1 me-2">
+        <div className="border border-light border-4 rounded-4 p-3 flex-grow-1 me-2">
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
               Name:
@@ -97,10 +97,10 @@ function ContactForm() {
           </button>
         </div>
 
-        <div className="border border-light border-4 rounded-4 p-3">
+        <div className="border border-light border-4 rounded-4 p-3 d-flex flex-column">
           <h4>My contact information</h4>
-          <email>Email: joey674901205@gmail.com</email>
-          <p>Phone: 674901205</p>
+          <p className="mt-2">Email: joey674901205@gmail.com</p>
+          <p className="mt-1">Phone: 674901205</p>
         </div>
       </form>
     </section>

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 
 // need hover effect
-// WHEN I am presented with the Portfolio section
+
 // THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
 function Project() {
-  // const [screenshots, setScreenshots]
   const [screenshots] = useState([
     {
       name: "iBetter - Habits Tracker",
@@ -55,23 +54,21 @@ function Project() {
     },
   ]);
 
-  // const toggleModal = (image, i) => {
-  //   setScreenshots({...image, index: i});
-  //   console.log(setScreenshots)
-  // }
-
   return (
     <div className="d-flex justify-content-center align-content-between flex-wrap mt-3 mx-5">
-      {/* <img src={Image} alt='screenshot' style={{ width: '40%' }} /> */}
       {screenshots.map((image, i) => (
         <img
           src={require(`../../assets/projects/${i}.png`)}
           alt={image.name}
           className="project"
           key={image.name}
-          // onMouseOver={()=> toggleModal(image, i)}
         />
       ))}
+      <>
+        <p>
+          <a href={screenshots.github}>GitHub</a>
+        </p>
+      </>
     </div>
   );
 }
