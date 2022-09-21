@@ -6,10 +6,11 @@ import React, { useState } from "react";
 
 function Project() {
   // const [screenshots, setScreenshots]
-  const [screenshots, ] = useState([
+  const [screenshots] = useState([
     {
       name: "iBetter - Habits Tracker",
-      description: "iBetter was developed to help you be better at tracking and accomplishing your good habits.",
+      description:
+        "iBetter was developed to help you be better at tracking and accomplishing your good habits.",
       language: "HANDLEBARS/JAVASCRIPT/CSS",
       github: "https://github.com/Vinyldude8896/iBetter",
       deployment: "https://ibetter.herokuapp.com",
@@ -23,21 +24,24 @@ function Project() {
     },
     {
       name: "The Tech Blog",
-      description: "A CMS-style blog site so that people can publish articles, blog posts, and any thoughts and opinions.",
+      description:
+        "A CMS-style blog site so that people can publish articles, blog posts, and any thoughts and opinions.",
       language: "HANDLEBARS/JAVASCRIPT/CSS",
       github: "https://github.com/YangLongWang/Tech-Blog",
       deployment: "https://tech-blog-app-6408.herokuapp.com",
     },
     {
       name: "Text Editor",
-      description: "To create notes or code snippets with or without an internet connection.",
+      description:
+        "To create notes or code snippets with or without an internet connection.",
       language: "JAVASCRIPT",
       github: "https://github.com/YangLongWang/Text-Editor",
       deployment: "https://text-editor-app-6408.herokuapp.com/",
     },
     {
       name: "Weather Dashboard",
-      description: "Seeing the weather outlook for multiple cities, travelers can plan a trip accordingly",
+      description:
+        "Seeing the weather outlook for multiple cities, travelers can plan a trip accordingly",
       language: "HTML/JAVASCRIPT/CSS",
       github: "https://github.com/YangLongWang/Weather-Dashboard",
       deployment: "https://yanglongwang.github.io/Weather-Dashboard/",
@@ -57,15 +61,14 @@ function Project() {
   // }
 
   return (
-    <div>
+    <div className="d-flex justify-content-center align-content-between flex-wrap mt-3 mx-5">
       {/* <img src={Image} alt='screenshot' style={{ width: '40%' }} /> */}
       {screenshots.map((image, i) => (
         <img
           src={require(`../../assets/projects/${i}.png`)}
           alt={image.name}
-          className=''
+          className="project"
           key={image.name}
-          style={{ width: '40%' }}
           // onMouseOver={()=> toggleModal(image, i)}
         />
       ))}
