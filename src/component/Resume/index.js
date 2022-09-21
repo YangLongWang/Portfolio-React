@@ -7,7 +7,28 @@ function Resume() {
   return (
     <section>
       <h2>Resume</h2>
-      <p>Download my resume</p>
+      <p>
+        Download my{" "}
+        <a href="../../assets/resume/Longyang Resume.docx">resume</a>
+      </p>
+      <h3>skills</h3>
+      <h4>Front-end</h4>
+      <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>React</li>
+      </ul>
+      <h4>Back-end</h4>
+      <ul>
+        <li>APIs</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>GraphQL</li>
+      </ul>
     </section>
   );
 }
