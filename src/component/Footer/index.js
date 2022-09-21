@@ -1,16 +1,22 @@
-import React from 'react';
-
-// WHEN I view the footer
-// THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+import React from "react";
 
 function Footer() {
   return (
     <footer>
-      <ul>
-        <li>GitHub</li>
-        <li>Linkedin</li>
-        <li>Stack Overflow</li>
-      </ul>
+      <div class="d-flex flex-row justify-content-center p-3">
+        <a href="https://github.com/YangLongWang" class="list-group-item mx-3">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/longyang-wang/"
+          class="list-group-item mx-3"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" class="list-group-item mx-3">
+          <i class="fa-brands fa-stack-overflow"></i>
+        </a>
+      </div>
     </footer>
   );
 }
