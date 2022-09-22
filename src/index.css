@@ -1,17 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -32,29 +18,71 @@ body{
   overflow: hidden;
 }
 
-.project {
+.pic-1, .pic-2, .pic-3, .pic-4, .pic-5, .pic-6 {
   width: 323px;
   height: 200px;
   margin: 2em;
-}
-
-.pic-1 {
-  width: 323px;
-  height: 200px;
-  margin: 2em;
-  background: url(../src/assets/projects/0.png) center no-repeat;
   background-size: cover;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
-.pic:hover {
-  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/0.png) center no-repeat;
+.pic-1 {
+  background: url(../src/assets/projects/0.png) center no-repeat;
+}
+
+.pic-2 {
+  background: url(../src/assets/projects/1.png) center no-repeat;
+} 
+
+.pic-3 {
+  background: url(../src/assets/projects/2.png) center no-repeat;
+} 
+
+.pic-4 {
+  background: url(../src/assets/projects/3.png) center no-repeat;
+} 
+
+.pic-5 {
+  background: url(../src/assets/projects/4.png) center no-repeat;
+} 
+
+.pic-6 {
+  background: url(../src/assets/projects/5.png) center no-repeat;
+}
+
+.pic-1:hover, .pic-2:hover, .pic-3:hover, .pic-4:hover, .pic-5:hover, .pic-6:hover {
   background-size: cover;
   opacity: 1;
 }
 
-.eye-1 {
+.pic-1:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/0.png) center no-repeat;
+}
+
+.pic-2:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/1.png) center no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+.pic-3:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/2.png) center no-repeat;
+}
+
+.pic-4:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/3.png) center no-repeat;
+}
+
+.pic-5:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/4.png) center no-repeat;
+}
+
+.pic-6:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/5.png) center no-repeat;
+}
+
+.eye {
   width: 323px;
   height: 200px;
   opacity: 0;
@@ -64,6 +92,10 @@ body{
 .eye:hover {
   border-radius: 10px;
   opacity: 1;
+}
+
+.pic .eye button a {
+  text-decoration: none;
 }
 
 .fa-brands {

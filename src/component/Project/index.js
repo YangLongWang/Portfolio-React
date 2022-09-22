@@ -55,17 +55,17 @@ function Project() {
     },
   ]);
 
-  function MouseOver(e) {
-    e.target.style.opacity = 0.4;
-    return (
-      <div>
-        <p>Github</p>
-      </div>
-    );
-  }
-  function MouseOut(e) {
-    e.target.style.opacity = 1;
-  }
+  // function MouseOver(e) {
+  //   e.target.style.opacity = 0.4;
+  //   return (
+  //     <div>
+  //       <p>Github</p>
+  //     </div>
+  //   );
+  // }
+  // function MouseOut(e) {
+  //   e.target.style.opacity = 1;
+  // }
 
   return (
     <div className="d-flex justify-content-center align-content-between flex-wrap mt-3 mx-5">
@@ -90,7 +90,7 @@ function Project() {
         </div>
       ))} */}
       <div className="pic pic-1">
-        <div className="eye eye-1 d-flex flex-column justify-content-between">
+        <div className="eye eye-1 d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://github.com/Vinyldude8896/iBetter">GitHub</a>
           </button>
@@ -100,19 +100,66 @@ function Project() {
         </div>
       </div>
       <div className="pic pic-2">
-        <div className="eye eye-2"></div>
+        <div className="eye eye-2 d-flex flex-column justify-content-around align-items-center p-2">
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://github.com/EnzoTragnone/Movie-Search">GitHub</a>
+          </button>
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://enzotragnone.github.io/Movie-Search/">
+              App Deployment
+            </a>
+          </button>
+        </div>
       </div>
-      <div className="pic pic-3">
-        <div className="eye eye-3"></div>
-      </div>
+      <div3 className="pic pic-3">
+        <div className="eye eye-3> d-flex flex-column justify-content-around align-items-center p-2">
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://github.com/YangLongWang/Tech-Blog">GitHub</a>
+          </button>
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://tech-blog-app-6408.herokuapp.com">
+              App Deployment
+            </a>
+          </button>
+        </div>
+      </div3>
       <div className="pic pic-4">
-        <div className="eye eye-4"></div>
+        <div className="eye eye-4 d-flex flex-column justify-content-around align-items-center p-2">
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://github.com/YangLongWang/Text-Editor">GitHub</a>
+          </button>
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://text-editor-app-6408.herokuapp.com/">
+              App Deployment
+            </a>
+          </button>
+        </div>
       </div>
       <div className="pic pic-5">
-        <div className="eye eye-5"></div>
+        <div className="eye eye-5 d-flex flex-column justify-content-around align-items-center p-2">
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://github.com/YangLongWang/Weather-Dashboard">
+              GitHub
+            </a>
+          </button>
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://yanglongwang.github.io/Weather-Dashboard/">
+              App Deployment
+            </a>
+          </button>
+        </div>
       </div>
       <div className="pic pic-6">
-        <div className="eye eye-6"></div>
+        <div className="eye eye-6 d-flex flex-column justify-content-around align-items-center p-2">
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://github.com/YangLongWang/Coding-Quiz">GitHub</a>
+          </button>
+          <button className="border border-light border-2 rounded-3 p-1">
+            <a href="https://yanglongwang.github.io/Coding-Quiz/">
+              App Deployment
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
