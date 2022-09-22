@@ -1,59 +1,54 @@
 import React, { useState } from "react";
-import Hover from "../Hover";
-
-// need hover effect
-
-// THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
 function Project() {
-  const [screenshots] = useState([
-    {
-      name: "iBetter - Habits Tracker",
-      description:
-        "iBetter was developed to help you be better at tracking and accomplishing your good habits.",
-      language: "HANDLEBARS/JAVASCRIPT/CSS",
-      github: "https://github.com/Vinyldude8896/iBetter",
-      deployment: "https://ibetter.herokuapp.com",
-    },
-    {
-      name: "Movie Search",
-      description: "A movie search website.",
-      language: "HTML/JAVASCRIPT/BULMA/CSS",
-      github: "https://github.com/EnzoTragnone/Movie-Search",
-      deployment: "https://enzotragnone.github.io/Movie-Search/",
-    },
-    {
-      name: "The Tech Blog",
-      description:
-        "A CMS-style blog site so that people can publish articles, blog posts, and any thoughts and opinions.",
-      language: "HANDLEBARS/JAVASCRIPT/CSS",
-      github: "https://github.com/YangLongWang/Tech-Blog",
-      deployment: "https://tech-blog-app-6408.herokuapp.com",
-    },
-    {
-      name: "Text Editor",
-      description:
-        "To create notes or code snippets with or without an internet connection.",
-      language: "JAVASCRIPT",
-      github: "https://github.com/YangLongWang/Text-Editor",
-      deployment: "https://text-editor-app-6408.herokuapp.com/",
-    },
-    {
-      name: "Weather Dashboard",
-      description:
-        "Seeing the weather outlook for multiple cities, travelers can plan a trip accordingly",
-      language: "HTML/JAVASCRIPT/CSS",
-      github: "https://github.com/YangLongWang/Weather-Dashboard",
-      deployment: "https://yanglongwang.github.io/Weather-Dashboard/",
-    },
-    {
-      name: "Coding Quiz",
-      description: "Practice coding assignment",
-      language: "HTML/JAVASCRIPT/CSS",
-      github: "https://github.com/YangLongWang/Coding-Quiz",
-      deployment: "https://yanglongwang.github.io/Coding-Quiz/",
-    },
-  ]);
+  // const [screenshots] = useState([
+  //   {
+  //     name: "iBetter - Habits Tracker",
+  //     description:
+  //       "iBetter was developed to help you be better at tracking and accomplishing your good habits.",
+  //     language: "HANDLEBARS/JAVASCRIPT/CSS",
+  //     github: "https://github.com/Vinyldude8896/iBetter",
+  //     deployment: "https://ibetter.herokuapp.com",
+  //   },
+  //   {
+  //     name: "Movie Search",
+  //     description: "A movie search website.",
+  //     language: "HTML/JAVASCRIPT/BULMA/CSS",
+  //     github: "https://github.com/EnzoTragnone/Movie-Search",
+  //     deployment: "https://enzotragnone.github.io/Movie-Search/",
+  //   },
+  //   {
+  //     name: "The Tech Blog",
+  //     description:
+  //       "A CMS-style blog site so that people can publish articles, blog posts, and any thoughts and opinions.",
+  //     language: "HANDLEBARS/JAVASCRIPT/CSS",
+  //     github: "https://github.com/YangLongWang/Tech-Blog",
+  //     deployment: "https://tech-blog-app-6408.herokuapp.com",
+  //   },
+  //   {
+  //     name: "Text Editor",
+  //     description:
+  //       "To create notes or code snippets with or without an internet connection.",
+  //     language: "JAVASCRIPT",
+  //     github: "https://github.com/YangLongWang/Text-Editor",
+  //     deployment: "https://text-editor-app-6408.herokuapp.com/",
+  //   },
+  //   {
+  //     name: "Weather Dashboard",
+  //     description:
+  //       "Seeing the weather outlook for multiple cities, travelers can plan a trip accordingly",
+  //     language: "HTML/JAVASCRIPT/CSS",
+  //     github: "https://github.com/YangLongWang/Weather-Dashboard",
+  //     deployment: "https://yanglongwang.github.io/Weather-Dashboard/",
+  //   },
+  //   {
+  //     name: "Coding Quiz",
+  //     description: "Practice coding assignment",
+  //     language: "HTML/JAVASCRIPT/CSS",
+  //     github: "https://github.com/YangLongWang/Coding-Quiz",
+  //     deployment: "https://yanglongwang.github.io/Coding-Quiz/",
+  //   },
+  // ]);
 
   // function MouseOver(e) {
   //   e.target.style.opacity = 0.4;
@@ -92,7 +87,9 @@ function Project() {
       <div className="pic pic-1">
         <div className="eye eye-1 d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
-            <a href="https://github.com/Vinyldude8896/iBetter">GitHub</a>
+            <a href="https://github.com/Vinyldude8896/iBetter">
+              GitHub Repository
+            </a>
           </button>
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://ibetter.herokuapp.com">App Deployment</a>
@@ -102,7 +99,9 @@ function Project() {
       <div className="pic pic-2">
         <div className="eye eye-2 d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
-            <a href="https://github.com/EnzoTragnone/Movie-Search">GitHub</a>
+            <a href="https://github.com/EnzoTragnone/Movie-Search">
+              GitHub Repository
+            </a>
           </button>
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://enzotragnone.github.io/Movie-Search/">
@@ -114,7 +113,9 @@ function Project() {
       <div3 className="pic pic-3">
         <div className="eye eye-3> d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
-            <a href="https://github.com/YangLongWang/Tech-Blog">GitHub</a>
+            <a href="https://github.com/YangLongWang/Tech-Blog">
+              GitHub Repository
+            </a>
           </button>
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://tech-blog-app-6408.herokuapp.com">
@@ -126,7 +127,9 @@ function Project() {
       <div className="pic pic-4">
         <div className="eye eye-4 d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
-            <a href="https://github.com/YangLongWang/Text-Editor">GitHub</a>
+            <a href="https://github.com/YangLongWang/Text-Editor">
+              GitHub Repository
+            </a>
           </button>
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://text-editor-app-6408.herokuapp.com/">
@@ -139,7 +142,7 @@ function Project() {
         <div className="eye eye-5 d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://github.com/YangLongWang/Weather-Dashboard">
-              GitHub
+              GitHub Repository
             </a>
           </button>
           <button className="border border-light border-2 rounded-3 p-1">
@@ -152,7 +155,9 @@ function Project() {
       <div className="pic pic-6">
         <div className="eye eye-6 d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
-            <a href="https://github.com/YangLongWang/Coding-Quiz">GitHub</a>
+            <a href="https://github.com/YangLongWang/Coding-Quiz">
+              GitHub Repository
+            </a>
           </button>
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://yanglongwang.github.io/Coding-Quiz/">
