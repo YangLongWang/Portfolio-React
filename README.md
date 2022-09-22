@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Portfolio-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [Purpose](#purpose)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### Purpose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A website built with React.js to show my work when applying for a job.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- reach the corresponding title by clicking on the navigation.
+- see the developer's name, photos, and links to sections about developer, works, and how to contact developer.
+- click the links of applications to transfer into GitHub and deployed application.
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./src/assets/images/Porfolio%20-%20Longyang.png)
+![](./src/assets/images/Portfolio%20-%20Longyang1.png)
+![](./src/assets/images/Porfolio%20-%20Longyang2.png)
+![](./src/assets/images/Portfolio%20-%20Longyang3.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Solution URL: [https://github.com/YangLongWang/Portfolio-React](https://github.com/YangLongWang/Portfolio-React)
+- Live Site URL: [https://yanglongwang.github.io/Portfolio-React/](https://yanglongwang.github.io/Portfolio-React/)
 
-### `npm run eject`
+## My process
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Build with
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React.js
+- CSS
+- Bootstrap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### What I learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- practice using bootstrap
+- practice building with React components
+- deployment app on Github
 
-## Learn More
+To see how I add code snippets, see below:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```JS
+function App() {
+  const [currentPage, setCurrentPage] = useState("About me");
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  const renderPage = () => {
+    if (currentPage === "About me") {
+      return <About />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentPage === "Contact") {
+      return <ContactForm />;
+    }
+    return <Resume />;
+  };
 
-### Code Splitting
+  const handlePageChange = (page) => setCurrentPage(page);
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  return (
+    <div className="container">
+      <div className="d-flex justify-content-between py-4">
+        <Header></Header>
+        <Nav
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+          className="align-self-end"
+        ></Nav>
+      </div>
+      <main>{renderPage()}</main>
+      <Footer></Footer>
+    </div>
+  );
+}
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github - [Longyang Wang](https://github.com/YangLongWang)
