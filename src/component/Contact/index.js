@@ -99,8 +99,10 @@ function ContactForm() {
 
         <div className="border border-light border-4 rounded-4 p-3 d-flex flex-column">
           <h4>My contact information</h4>
-          <p className="mt-2">Email: joey674901205@gmail.com</p>
-          <p className="mt-1">Phone: 674901205</p>
+          <a href="mailto:joey674901205@gmail.com">
+            <p className="mt-2">Email: joey674901205@gmail.com</p>
+          </a>
+          {/* <p className="mt-1">Phone: 674901205</p> */}
         </div>
       </form>
     </section>
