@@ -18,7 +18,7 @@ body{
   overflow: hidden;
 }
 
-.pic-1, .pic-2, .pic-3, .pic-4, .pic-5, .pic-6 {
+.pic-1, .pic-2, .pic-3, .pic-4, .pic-5, .pic-6, .pic-7 {
   width: 323px;
   height: 200px;
   margin: 2em;
@@ -55,7 +55,7 @@ body{
   background: url(../src/assets/projects/6.png) center no-repeat;
 }
 
-.pic-1:hover, .pic-2:hover, .pic-3:hover, .pic-4:hover, .pic-5:hover, .pic-6:hover {
+.pic-1:hover, .pic-2:hover, .pic-3:hover, .pic-4:hover, .pic-5:hover, .pic-6:hover, .pic-7:hover {
   background-size: cover;
   opacity: 1;
 }
@@ -84,6 +84,10 @@ body{
 
 .pic-6:hover {
   background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/5.png) center no-repeat;
+}
+
+.pic-7:hover {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 60%)), url(../src/assets/projects/6.png) center no-repeat;
 }
 
 .eye {

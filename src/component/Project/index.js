@@ -167,7 +167,7 @@ function Project() {
         </div>
       </div>
       <div className="pic pic-7">
-        <div className="eye eye-6 d-flex flex-column justify-content-around align-items-center p-2">
+        <div className="eye eye-7 d-flex flex-column justify-content-around align-items-center p-2">
           <button className="border border-light border-2 rounded-3 p-1">
             <a href="https://github.com/Beca-d/Make-A-Deal">
               GitHub Repository
