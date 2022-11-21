@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.833dba91.css",
-    "main.js": "/Portfolio-React/static/js/main.ccde81d8.js",
+    "main.css": "/Portfolio-React/static/css/main.6b3c0593.css",
+    "main.js": "/Portfolio-React/static/js/main.556382d9.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
     "static/media/touxiang.jpg": "/Portfolio-React/static/media/touxiang.7c41e547038921d31e10.jpg",
     "static/media/1.png": "/Portfolio-React/static/media/1.7b6db943ef2a631aaa41.png",
@@ -10,12 +10,12 @@
     "static/media/4.png": "/Portfolio-React/static/media/4.f4cee53cbcd318118fb9.png",
     "static/media/Longyang Resume.docx": "/Portfolio-React/static/media/Longyang Resume.89bf4792e8d0dd2f2a5e.docx",
     "index.html": "/Portfolio-React/index.html",
-    "main.833dba91.css.map": "/Portfolio-React/static/css/main.833dba91.css.map",
-    "main.ccde81d8.js.map": "/Portfolio-React/static/js/main.ccde81d8.js.map",
+    "main.6b3c0593.css.map": "/Portfolio-React/static/css/main.6b3c0593.css.map",
+    "main.556382d9.js.map": "/Portfolio-React/static/js/main.556382d9.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.833dba91.css",
-    "static/js/main.ccde81d8.js"
+    "static/css/main.6b3c0593.css",
+    "static/js/main.556382d9.js"
   ]
 }

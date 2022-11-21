@@ -7,11 +7,12 @@ function Resume() {
       <p>
         Download my{" "}
         <a
-          href={require("../../assets/resume/Longyang Resume.docx")}
-          download="Longyang Resume.docx"
+          href={require("../../assets/resume/Longyang Wang_resume.pdf")}
+          download="Longyang Wang_resume.pdf"
         >
           resume
         </a>
+        .
       </p>
       <h3>skills</h3>
       <h5>Front-end Proficiencies</h5>
@@ -25,7 +26,7 @@ function Resume() {
       <h5>Back-end Proficiencies</h5>
       <ul>
         <li>APIs</li>
-        <li>Node</li>
+        <li>Node.js</li>
         <li>Express</li>
         <li>MongoDB</li>
         <li>MySQL</li>
