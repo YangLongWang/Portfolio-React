@@ -14,7 +14,7 @@ function Resume() {
         </a>
         .
       </p>
-      <h3>skills</h3>
+      <h3>Skills</h3>
       <h5>Front-end Proficiencies</h5>
       <ul>
         <li>Html</li>
