@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.6b3c0593.css",
-    "main.js": "/Portfolio-React/static/js/main.58a3f961.js",
+    "main.js": "/Portfolio-React/static/js/main.eb8e7909.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
     "static/media/touxiang.jpg": "/Portfolio-React/static/media/touxiang.7c41e547038921d31e10.jpg",
-    "static/media/Longyang Wang_resume.pdf": "/Portfolio-React/static/media/Longyang Wang_resume.e063346fd31075b9a340.pdf",
+    "static/media/Longyang Wang_resume.pdf": "/Portfolio-React/static/media/Longyang Wang_resume.0b4c79f4ee2a80e4e49d.pdf",
     "static/media/1.png": "/Portfolio-React/static/media/1.7b6db943ef2a631aaa41.png",
     "static/media/6.png": "/Portfolio-React/static/media/6.25e09e8f5ae7d1780534.png",
     "static/media/0.png": "/Portfolio-React/static/media/0.5ec8fa9ede8026a66a31.png",
     "static/media/4.png": "/Portfolio-React/static/media/4.f4cee53cbcd318118fb9.png",
     "index.html": "/Portfolio-React/index.html",
     "main.6b3c0593.css.map": "/Portfolio-React/static/css/main.6b3c0593.css.map",
-    "main.58a3f961.js.map": "/Portfolio-React/static/js/main.58a3f961.js.map",
+    "main.eb8e7909.js.map": "/Portfolio-React/static/js/main.eb8e7909.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b3c0593.css",
-    "static/js/main.58a3f961.js"
+    "static/js/main.eb8e7909.js"
   ]
 }
